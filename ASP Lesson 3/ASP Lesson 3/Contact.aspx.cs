@@ -13,5 +13,16 @@ namespace ASP_Lesson_3
         {
 
         }
+
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //Replace Email processing here
+            Response.Redirect("Default.aspx");
+        }
     }
 }
